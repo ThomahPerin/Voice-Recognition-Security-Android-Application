@@ -65,4 +65,9 @@ public class VoicePasswordActivity extends AppCompatActivity {
                 break;
         }
     }
+
+    public void recording(View v){
+        Intent test = new Intent(this, StoreData.class);
+        startActivity(test);
+    }
 }
