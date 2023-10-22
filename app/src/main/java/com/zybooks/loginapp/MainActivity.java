@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void login(View v){
-        Intent record = new Intent(this, VoicePasswordActivity.class);
+        Intent record = new Intent(this, TestSpeech.class);
        inputUsername = username.getText().toString();
        inputPassword = password.getText().toString();
 
